@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Store</title>
+		<!--font awesome-->
+		<script
+			src="https://kit.fontawesome.com/206e92fd51.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!--custom css-->
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- navbar -->
+		<nav class="navar">
+			<div class="navbar-center">
+				<span class="nav-icon">
+					<i class="fas fa-bars"></i>
+				</span>
+				<img
+					width="50px"
+					height="50px"
+					src="./images/logo.svg"
+					alt="store logo"
+				/>
+				<div class="cart-btn">
+					<span class="nav-icon">
+						<i class="fas fa-cart-plus"></i>
+					</span>
+					<div class="cart-items">0</div>
+				</div>
+			</div>
+		</nav>
+		<!--end of navbar-->
+		<!--hero-->
+		<header class="hero">
+			<div class="banner">
+				<h1 class="banner-title">Intro Outro Bumper Music</h1>
+            
+                <h3 class="banner-subtitle">The internet's source of <span style="text-decoration:underline">freely-usable</span> music tracks for podcasts and vlogs</h2>
+                <h3 class="banner-paragraph">Powered by introoutrobed @ gmail . com</h3>
+                <button class="banner-btn">Get Free WAV Files</button>
+            </div>
+		</header>
+		<!--end of hero-->
+		<!--products-->
+		<section class="products">
+			<div class="section-title">
+				<h2>Music Tracks</h2>
+			</div>
+			<div class="products-center">
+				
+			</div>
+		</section>
+		<!--end of products-->
+		<!--cart-->
+		<div class="cart-overlay">
+			<div class="cart">
+				<span class="close-cart">
+					<i class="fas fa-window-close"></i>
+				</span>
+				<h2>your cart</h2>
+				<div class="cart-content">
+					<!--cart item-->
+					<div class="cart-item">
+						<img src="./images/product-1.jpeg" alt="product" />
+						<div>
+							<h4>Ambient music</h4>
+							<h5>$0</h5>
+							<span class="remove-item">remove</span>
+						</div>
+						<div>
+							<i class="fa fa-chevron-up"></i>
+							<p class="item-amount">1</p>
+							<i class="fas fa-chevron-down"></i>
+						</div>
+					</div>
+					<!--end of cart item-->
+				</div>
+				<div class="cart-footer">
+					<h3>your total: $ <span class="cart-total">0</span>
+                    </h3>
+                    <button class="clear-cart banner-btn">clear cart</button>
+        
+				</div>
+			</div>
+		
+		<!--end of cart-->
+
+		<script src="app.js"></script>
+	</body>
+</html>
